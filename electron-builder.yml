@@ -1,5 +1,5 @@
-appId: com.example.nextron
-productName: My Nextron App
+appId: com.nexample13.nextron
+productName: My nexample13 App
 copyright: Copyright © 2018 Yoshihide Shiono
 directories:
   output: dist
@@ -10,3 +10,4 @@ files:
       - package.json
       - app
 publish: null
+
