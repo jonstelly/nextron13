@@ -8,6 +8,7 @@
   "scripts": {
     "dev": "nextron",
     "build": "nextron build --next13",
+    "build:mac:dev": "CSC_IDENTITY_AUTO_DISCOVERY=false nextron build --mac --x64",
     "go": "chmod +x ./dist/linux-unpacked/nexample13 && ./dist/linux-unpacked/nexample13",
     "postinstall": "electron-builder install-app-deps"
   },
@@ -19,7 +20,7 @@
   "devDependencies": {
     "@types/node": "^18.11.18",
     "@types/react": "^18.0.26",
-    "electron": "^21.3.3",
+    "electron": "^25.2.0",
     "electron-builder": "^23.6.0",
     "next": "^13.4.7",
     "nextron": "^8.5.0",
