@@ -7,7 +7,8 @@
   "main": "app/background.js",
   "scripts": {
     "dev": "nextron",
-    "build": "nextron build --next1 --mac --x64",
+    "build": "nextron build --next13",
+    "build:mac:dev": "CSC_IDENTITY_AUTO_DISCOVERY=false nextron build --mac --x64",
     "go": "chmod +x ./dist/linux-unpacked/nexample13 && ./dist/linux-unpacked/nexample13",
     "postinstall": "electron-builder install-app-deps"
   },
